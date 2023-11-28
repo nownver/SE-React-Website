@@ -1,0 +1,56 @@
+.newsPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto 10% auto;
+}
+
+.uploadSection {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.photoInput {
+  margin-bottom: 10px;
+}
+
+.uploadButton {
+  padding: 10px;
+  color: white;
+}
+
+.photoSection {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.photoGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  height: 460px;
+  overflow-y: scroll;
+}
+
+.photoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photoBlock {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 0;
+}
+
+.photoName {
+  font-size: 10px;
+  margin: 0.1rem 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .newsPage {
+    flex-direction: column;
+  }
+}

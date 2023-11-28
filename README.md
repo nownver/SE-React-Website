@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Software Engineering Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A website developed for the Software Engineering faculty at KMITL. 
 
-## Available Scripts
+Developed using ReactJS, FastAPI, SQLite and PostgreSQL.
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+## Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Homepage
+<img width="640" alt="image" src="https://github.com/nownver/SE-React-Website/assets/112106065/71bdb5bc-1112-406e-a2ff-35d32edfb090">
+<img width="640" alt="image" src="https://github.com/nownver/SE-React-Website/assets/112106065/f4d73307-bff1-4be4-88b3-acf2ba23520a">
+<img width="640" alt="image" src="https://github.com/nownver/SE-React-Website/assets/112106065/4669b752-b72a-4cf8-b614-0d5785a91f7f">
+<img width="640" alt="image" src="https://github.com/nownver/SE-React-Website/assets/112106065/6648879d-91ce-4a8b-83ee-b1797dce5d3c">
+<img width="640" alt="image" src="https://github.com/nownver/SE-React-Website/assets/112106065/955f509d-826a-459a-addb-ca9e5c765e80">
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Login page
+<img width="640" alt="image" src="https://github.com/nownver/SE-React-Website/assets/112106065/0eb864a2-bdaf-4be1-86d8-464a7796b6c2">
+<br>
 
-### `npm test`
+- Profile page
+<img width="640" alt="image" src="https://github.com/nownver/SE-React-Website/assets/112106065/66d32b03-9d0f-4b5f-af12-70a45d117757">
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Notes page
+<img width="640" alt="image" src="https://github.com/nownver/SE-React-Website/assets/112106065/d22404f7-9278-4e40-a996-216cd78f8806">
+<img width="640" alt="image" src="https://github.com/nownver/SE-React-Website/assets/112106065/b98a7f43-a67d-4af0-bb93-2aa2209e3eaa">
+<br>
 
-### `npm run build`
+- Timetable page
+<img width="640" alt="image" src="https://github.com/nownver/SE-React-Website/assets/112106065/0a60777e-c156-480f-af1c-b53df88fe4c2">
+<img width="640" alt="image" src="https://github.com/nownver/SE-React-Website/assets/112106065/c94e2d06-44bc-4638-9217-cddfc0ca0eb7">
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Learning page
+<img width="640" alt="image" src="https://github.com/nownver/SE-React-Website/assets/112106065/e4e9650d-1a06-4508-8aee-0a582f9d8e35">
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- News page
+<img width="640" alt="image" src="https://github.com/nownver/SE-React-Website/assets/112106065/85aac95d-d670-430b-b035-3cf5a6e268fe">
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Chat Page
+<img width="1512" alt="image" src="https://github.com/nownver/SE-React-Website/assets/112106065/e8cffd3e-96b9-4684-8c4b-893936ba43dc">
+<br>
 
-### `npm run eject`
+<br>
+## How to run
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+In the backend directory, run `python3 main.py` and `docker-compose up`,
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Navgiate to the frontend directory, then run `npm run start`

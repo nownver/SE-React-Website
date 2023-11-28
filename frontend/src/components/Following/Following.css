@@ -1,0 +1,82 @@
+.Account {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.Account .Following {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.Following .AccountPic {
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.Following .AccountInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.AccountInfo .AccountName {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: "Varela Round";
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.AccountInfo .YearsStatus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5rem;
+  margin-left: 2rem;
+  width: 100%;
+}
+
+.YearsStatus .YearColor {
+  width: 20px;
+  height: 20px;
+  background: #f24e1e;
+  border-radius: 9999px;
+  margin-right: 1rem;
+}
+
+.YearsStatus .AccountYear {
+  color: #666666;
+  font-size: 20px;
+  font-family: "Varela Round";
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-right: 1rem;
+}
+
+.YearsStatus .AccountStatus {
+  width: 100px;
+  height: 30px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  text-align: center;
+  color: #585859;
+  font-size: 15px;
+  font-family: "Varela Round";
+  font-weight: 400;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

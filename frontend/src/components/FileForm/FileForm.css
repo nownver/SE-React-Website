@@ -1,0 +1,47 @@
+.FileForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 2rem;
+  font-family: "Varela Round";
+}
+
+.RepositInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.RepositInput label {
+  margin: 1rem 0;
+}
+
+.RepositInput #name {
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.RepositInput #description {
+  padding: 0.5rem 0 3rem 0.5rem;
+}
+
+.RepositRadio div {
+  margin-top: 1rem;
+}
+
+.RepositRadio p {
+  margin: 1rem 0;
+  text-decoration: underline;
+}
+
+.RepositRadio label {
+  margin: 1rem;
+}
+
+.UploadInput {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.SaveButton {
+  display: flex;
+  justify-content: center;
+}

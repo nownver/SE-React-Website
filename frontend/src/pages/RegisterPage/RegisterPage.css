@@ -1,0 +1,126 @@
+.Page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.RegisterOverlay {
+  width: 795px;
+  /* height: 799px; */
+  position: relative;
+  background: white;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 24px;
+  margin: 2rem;
+  padding-bottom: 4rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.CloseIcon {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo {
+  width: 88px;
+  height: 53px;
+  margin: 2rem;
+}
+
+.SoftwareEngineering {
+  text-align: center;
+  color: #666666;
+  font-size: 20px;
+  font-family: "Varela Round";
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.RegisterText {
+  text-align: center;
+  color: #333333;
+  font-size: 32px;
+  font-family: "Varela Round";
+  font-weight: 500;
+  word-wrap: break-word;
+  margin: 2rem;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.UserInput {
+  margin: 0rem;
+}
+
+.Label {
+  color: #666666;
+  font-size: 14px;
+  font-family: "Varela Round";
+  font-weight: 400;
+  word-wrap: break-word;
+  margin: 0.5rem;
+}
+
+.Input input{
+  width: 528px;
+  height: 56px;
+  position: relative;
+  border-radius: 12px;
+  border: 1px rgba(102, 102, 102, 0.35) solid;
+  padding-left: 20px;
+}
+
+.RegisterButton button {
+  width: 528px;
+  height: 64px;
+  background: #ee9120;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  color: white;
+  font-size: 22px;
+  font-family: "Varela Round";
+  margin: 2rem;
+}
+
+
+.RegisterButton button:hover {
+  cursor: pointer;
+}
+
+.goToLogin {
+  text-align: center;
+  font-family: 'Varela Round';
+  font-size: 14px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.goToLogin p {
+  cursor: pointer;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.ErrorMessage {
+  text-align: center;
+  font-family: 'Varela Round';
+  color: red;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}

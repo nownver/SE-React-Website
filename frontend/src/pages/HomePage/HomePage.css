@@ -1,0 +1,286 @@
+.homePage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.homeHeader {
+  display: flex;
+  flex-direction: row;
+  background: #d9d9d9;
+}
+
+.homeHeader a {
+  padding: 2rem 5%;
+  font-family: "Poppins";
+}
+
+.seBanner {
+  width: 100%;
+}
+
+.homeBody {
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 12rem 7rem 8rem;
+  font-family: "Poppins";
+  color: #fff;
+}
+
+.sectionAbout {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.paragraph {
+  width: 100%;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.seLogoHome {
+  width: 24rem;
+  height: 13rem;
+  margin-top: 1rem;
+}
+
+.aboutBox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.aboutField {
+  width: 100%;
+  min-width: 200px;
+  height: 434px;
+  background: #d9d9d9;
+  box-shadow: 6px 8px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fieldLine {
+  width: 100%;
+  height: 0;
+  border: 2px #4a5c70 solid;
+  margin: 4rem 0;
+}
+
+.fieldText {
+  color: #4a5c70;
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 400;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.SectionLine {
+  width: 100%;
+  height: 0;
+  border: 2px white solid;
+  margin: 5rem 0;
+}
+
+.leftTitle {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.centerTitle {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.UoG {
+  height: 350px;
+  width: 350px;
+}
+
+.paraImg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.paraImg .paragraph {
+  margin-right: 2rem;
+}
+
+.paragraph li {
+  color: #e0e0e0;
+  margin: 1rem 0;
+  margin-left: 1rem;
+}
+
+.imageSphere {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageSphere img {
+  margin: 2rem;
+  width: 50%;
+  max-width: 450px;
+  min-width: 180px;
+}
+
+.SectionTitle {
+  color: white;
+  font-size: 70px;
+  font-family: "Poppins";
+  font-weight: 400;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.sectionProgram {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.curriculumTitle {
+  color: white;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  word-wrap: break-word;
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.curriculumParagraph {
+  color: white;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  word-wrap: break-word;
+  font-size: 16px;
+  margin-bottom: 3rem;
+}
+
+.homeBody span {
+  color: #ee9120;
+}
+
+.curriculumImg {
+  margin-bottom: 5rem;
+}
+
+.sectionClassroom {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.classroomContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.classroomImage {
+  width: 521px;
+  height: 480px;
+  margin: 0.9rem;
+}
+
+.homeFooter {
+  display: flex;
+  flex-direction: column;
+  background: #d9d9d9;
+  font-family: "Poppins";
+}
+
+.homeFooter .footerTitle{
+  color: black;
+  font-size: 30px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  padding: 2rem 5%;
+}
+
+.contactIcons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-bottom: 3rem;
+}
+
+.contactIcons a {
+  margin-right: 1rem;
+}
+
+.backToTop {
+  margin-left: 5%;
+  margin-bottom: 5rem;
+  width: fit-content;
+}
+
+@media screen and (max-width: 900px) and (min-width: 860px) {
+  .homePage {
+    margin-left: -8rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .homeBody {
+    padding: 4rem 10rem 4rem 6rem;
+  }
+
+  .paraImg {
+    flex-direction: column;
+  }
+
+  .paragraph {
+    text-align: left; 
+  }
+
+  .leftTitle,
+  .centerTitle {
+    text-align: center;
+  }
+
+  .aboutBox {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .aboutField {
+    min-width: 300px;
+    width: 50%;
+    margin: 1rem 0;
+  }
+
+  .imageSphere {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .homeBody {
+    padding: 4rem 4rem; 
+  }
+
+  .classroomImage {
+    width: 400px;
+    height: 400px;
+  }
+}

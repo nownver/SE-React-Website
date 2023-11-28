@@ -1,0 +1,128 @@
+.chatContainer {
+  width: 516px;
+  height: 697px;
+  position: relative;
+  background: #d9d9d9;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: 2rem auto 10% auto;
+  transition: 0.4s ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatTitle {
+  margin-bottom: 2rem;
+}
+
+.clientID {
+  margin-bottom: 2rem;
+  font-size: 16px;
+}
+
+.chat-container {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.7);
+  max-width: 500px;
+  max-height: 500px;
+  border: 1px solid #414044;
+}
+
+.chat {
+  padding: 10px;
+  width: 400px;
+  height: 400px;
+  background-color: #c3e6e3;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.chat::-webkit-scrollbar {
+  display: none;
+  /* Chrome */
+}
+
+.input-chat-container {
+  padding: 10px;
+  height: auto;
+  border: 0px solid #363232;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
+.input-chat {
+  width: 100%;
+  min-height: 25px;
+  outline: none;
+  border: 0px solid #8b8b8b;
+}
+
+.submit-chat {
+  max-width: 50px;
+  background-color: #92f371;
+  outline: none;
+  border: 1px solid #4d7a8e;
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 6px;
+  color: white;
+}
+
+.submit-chat:hover {
+  width: 50px;
+  background-color: #61ff2c;
+}
+
+.my-message-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.my-message {
+  padding: 5px;
+  width: fit-content;
+  min-width: 100px;
+  max-width: 300px;
+  background-color: rgb(124, 221, 236);
+  border: 1px solid black;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.7);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.another-message-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.another-message {
+  max-width: 300px;
+  padding: 5px;
+  width: fit-content;
+  background-color: rgb(145, 204, 249);
+  border: 1px solid black;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.7);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.client {
+  font-size: 13px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.message {
+  margin-top: 3px;
+  margin-bottom: 0px;
+}

@@ -47,6 +47,7 @@ Developed using ReactJS, FastAPI, SQLite and PostgreSQL.
 <br>
 
 <br>
+
 ## How to run
 
 In the backend directory, run `python3 main.py` and `docker-compose up`,

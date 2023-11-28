@@ -1,0 +1,266 @@
+.ProfileSection {
+  width: 616px;
+  height: 707px;
+  position: relative;
+  background: #d9d9d9;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: 2rem 1.5rem;
+
+  transition: 0.4s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.User {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.UserSProfilePic {
+  padding: 1rem;
+  margin: 2rem;
+  position: relative;
+}
+
+.UserSProfilePic button{
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.UserSProfilePic img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  border: 5px white solid;
+}
+
+.UserSProfilePic img:hover {
+  cursor: pointer;
+  border: 5px rgb(240, 240, 240) solid;
+}
+
+.Name {
+  position: relative;
+  text-align: center;
+  color: rgb(50, 50, 50);
+  font-size: 40px;
+  font-family: "Varela Round";
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-bottom: 1rem;
+}
+
+.Name:hover {
+  cursor: pointer;
+  color: #000000;
+}
+
+.Email {
+  position: relative;
+  text-align: center;
+  color: rgba(102, 102, 102, 0.8);
+  font-size: 25px;
+  font-family: "Varela Round";
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.Contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+}
+
+.ContactsRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.ContactsIcon {
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+}
+
+.ContactsText {
+  color: black;
+  font-size: 15px;
+  font-family: "Varela Round";
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.ContactsText:hover {
+  color: rgb(91, 165, 255);
+}
+
+.ContactsTextNone {
+  color: rgb(132, 132, 132);
+  font-size: 15px;
+  font-family: "Varela Round";
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.Dot {
+  width: 5px;
+  height: 5px;
+  background: black;
+  border-radius: 100%;
+  margin: 0 0.5rem;
+}
+
+@media screen and (max-width: 800px){
+    .ProfileSection {
+        width: 500px;
+        margin: 2rem 0;
+    }
+}
+
+/* ProfileMODAL */
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.modal.is-active {
+  display: flex;
+}
+
+.modal-card {
+  max-width: 500px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.modal-card-head,
+.modal-card-body,
+.modal-card-foot {
+  padding: 1rem;
+}
+
+.modal-card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.modal-card-foot {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.field {
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 7px;
+}
+
+.button.is-info {
+  background: #3273dc;
+  color: #fff;
+  border: none;
+}
+
+.button.is-danger {
+  background: #ff3860;
+  color: #fff;
+  border: none;
+}
+
+.has-background-primary-light {
+  background-color: #f2f2f2;
+}
+
+.has-background-primary-light .button {
+  background-color: #3273dc;
+  color: #fff;
+}
+
+.has-background-primary-light .button:hover {
+  background-color: #2765c6;
+}
+
+/* TABLE */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+.table th,
+.table td {
+  border: 1px solid #dfe6e9;
+  padding: 0.5em;
+  text-align: left;
+}
+
+.table th {
+  background-color: #d3d4d9;
+}
+
+.table tr {
+  background-color: #f5f6fa;
+}
+
+.table tbody tr:hover {
+  background-color: #eaecf3;
+}
+
+.table td {
+  height: 2rem;
+  width: 3rem;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.button.is-fullwidth {
+  width: 99%;
+}
+
+.ErrorMessage {
+  color: #e74c3c;
+  margin-top: 1em;
+}
+
+.Content::-webkit-scrollbar {
+  display: none;
+}

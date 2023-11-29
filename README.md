@@ -22,6 +22,7 @@ Our Software Engineering (SE) department's website stands as a robust and compre
 <br>
 
 <br>
+
 - **Login page**
 
 Upon entering the platform, users are greeted with a user-friendly interface that prioritizes security through a secure login and registration process. 
@@ -30,6 +31,7 @@ Upon entering the platform, users are greeted with a user-friendly interface tha
 <br>
 
 <br>
+
 - **Profile page**
 
 As users navigate further in, they can update their profiles, reflecting their academic progress and personal preferences. The integration of customizable elements not only enhances the user experience but also fosters a sense of individuality within the broader academic community.
@@ -38,6 +40,7 @@ As users navigate further in, they can update their profiles, reflecting their a
 <br>
 
 <br>
+
 - **Notes page**
 
 One noteworthy feature of our website is its intuitive note-taking and scheduling capabilities. These tools empower students to efficiently organize tasks and set reminders, enhancing their approach to learning.
@@ -47,6 +50,7 @@ One noteworthy feature of our website is its intuitive note-taking and schedulin
 <br>
 
 <br>
+
 - **Timetable page**
 
 Another aspect that stands out is the dynamic timetable feature, which simplifies subject scheduling and eliminates unnecessary administrative hassles. This functionality provides students with a clear and organized overview of their academic commitments, fostering a more structured and focused learning environment. 
@@ -56,6 +60,7 @@ Another aspect that stands out is the dynamic timetable feature, which simplifie
 <br>
 
 <br>
+
 - **Learning page**
 
 Diversifying the learning resources, the website integrates video materials into its repository. Recognizing the varied learning styles of individuals, this addition ensures a more engaging and inclusive educational experience. Students can access a spectrum of content, from lectures to practical demonstrations, enhancing their understanding and mastery of software engineering concepts.
@@ -64,6 +69,7 @@ Diversifying the learning resources, the website integrates video materials into
 <br>
 
 <br>
+
 - **News page**
 
 Complementing the academic aspects, the website incorporates a dedicated news page. This serves as a dynamic source of information, keeping users abreast of the latest developments, events, and news within the software department. Regular updates create a sense of community and shared awareness, strengthening the connection between students and faculty.
@@ -72,6 +78,7 @@ Complementing the academic aspects, the website incorporates a dedicated news pa
 <br>
 
 <br>
+
 - **Chat Page**
 
 Real-time collaboration is at the heart of our website, facilitated through the Open Chat functionality. This feature acts as a virtual meeting place where students and faculty can engage in discussions, seek advice, and collaborate on projects. The Open Chat not only breaks down physical barriers but also fosters a vibrant online community, transcending the limitations of traditional educational settings.
